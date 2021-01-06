@@ -2479,7 +2479,16 @@ bg
 .defi-img{
   width: 80%;
 }
-
+.can-wrapper {
+    text-align: center;
+    margin-top: 50px;
+}
+.can{
+  width: 70%;
+}
+.this-is{
+  width: 50%;
+}
 
 
 @media screen and (min-width: 1030px){
