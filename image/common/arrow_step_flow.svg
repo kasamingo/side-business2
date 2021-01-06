@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="219" viewBox="0 0 25 219">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #cecece;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="arrow_step_flow.svg" class="cls-1" d="M90.49,17608.7l-12.5-21.7h25Zm0,38.5-12.5-21.7h25Zm0,40.9-12.5-21.7h25Zm0,38.5-12.5-21.7h25Zm0,40.8-12.5-21.7h25Zm0,38.6-12.5-21.7h25Z" transform="translate(-78 -17587)"/>
+</svg>
