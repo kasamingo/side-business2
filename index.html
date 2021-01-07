@@ -478,10 +478,31 @@
 
 
       <details>
-        <summary><img src="image/prob.png" alt=""></summary>
+        <summary><img class="button" src="image/prob.png" alt=""></summary>
         <img class="pro2" src="image/prob2.png" alt="">
       </details>
 
+
+      <script>
+        const btn = document.querySelector('.button');
+        const element = document.querySelector('.pro2');
+
+
+        btn.addEventListener('click', ()=> {
+          element.animate(
+            {
+              transform:[
+                'scale(0.3)',
+                'scale(1)'
+              ]
+            },
+            {
+              duration: 700,
+              easing:'ease'
+            }
+          );
+        } )
+      </script>
 
 
 
@@ -594,7 +615,8 @@
 
 
   <div class="m-modal" id="modal-onload">
-    <p class="m-modal-logo"><img src="../../parts/image/logo_color.png" alt="Luxury Support 大正7年創業以来、昔も今も個人のお客様とともに"></p>
+    <p class="m-modal-logo"><img src="../../parts/image/logo_color.png" alt="Luxury Support 大正7年創業以来、昔も今も個人のお客様とともに">
+    </p>
 
     <div class="m-modal-hdg" data-type="bg">のWEBサイトへようこそ</div>
     <p>直前にご覧いただいていたWEBサイトは、当社が作成したものではありません。</p>
