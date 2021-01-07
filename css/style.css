@@ -2531,7 +2531,7 @@ details[open] summary:after {
   cursor: pointer;
 }
 .pro2 {
-  width: 44%;
+  width: 50%;
   float: right;
 }
 .btn-area2 {
@@ -2570,7 +2570,7 @@ details[open] summary:after {
   cursor: pointer;
 }
 .sum2 img{
-  width: 40%;
+  width: 50%;
   float: right;
 }
 .sum2 img:hover{
@@ -2591,7 +2591,7 @@ details[open] summary:after {
   padding: 0px 75px 0px 75px;
 }
 .pro4 {
-  width: 44%;
+  width: 50%;
   float: right;
 }
 
