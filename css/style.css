@@ -1601,7 +1601,6 @@ flow
 
 .flow .c-heading {
   margin-bottom: 50px;
-  margin-top: 600px;
 }
 
 .flow .sub-ttl {
@@ -2518,10 +2517,11 @@ details[open] summary:after {
 }
 
 
-.det1{
+.det1 {
   display: block;
   list-style: none;
   height: 300px;
+  padding: 0px 75px 0px 75px;
 }
 .sum1{
   position: relative;
@@ -2531,7 +2531,7 @@ details[open] summary:after {
   cursor: pointer;
 }
 .pro2 {
-  width: 40%;
+  width: 44%;
   float: right;
 }
 .btn-area2 {
@@ -2539,16 +2539,23 @@ details[open] summary:after {
   height: 250px;
   padding-top: 69px;
 }
-
+.que-wrapper{
+  text-align: center;
+}
+.que-text {
+  width: 60%;
+  margin-bottom: 50px;
+}
 
 /*-------------------------------------------クエスチョン２*/
 .det2 {
   display: block;
   list-style: none;
   height: 300px;
+  padding: 0px 75px 0px 75px;
 }
 .pro3 {
-  width: 40%;
+  width: 44%;
   float: right;
 }
 
@@ -2566,6 +2573,10 @@ details[open] summary:after {
   width: 40%;
   float: right;
 }
+.sum2 img:hover{
+  opacity: 0.3;
+  transform: 1r;
+}
 .pro3{
   float: left;
 }
@@ -2573,13 +2584,14 @@ details[open] summary:after {
 
 
 /*-------------------------------------------クエスチョン3*/
-.det3{
+.det3 {
   display: block;
   list-style: none;
-  height: 400px;
+  height: 300px;
+  padding: 0px 75px 0px 75px;
 }
 .pro4 {
-  width: 40%;
+  width: 44%;
   float: right;
 }
 
@@ -2592,6 +2604,10 @@ details[open] summary:after {
   display: block; /* 矢印を消す */
   padding-left: 20px; /* アイコン分の余白 */
   cursor: pointer;
+}
+.sum3 img:hover{
+  opacity: 0.3;
+  transform: 1r;
 }
 .sum3 img{
   width: 40%;
