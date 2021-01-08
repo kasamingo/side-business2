@@ -2508,7 +2508,7 @@ details[open] summary:after {
   top: 5px;
 }
 .sum1 img {
-  width: 40%;
+  width: 45%;
   float: left;
 }
 .sum1 img:hover{
@@ -2520,8 +2520,7 @@ details[open] summary:after {
 .det1 {
   display: block;
   list-style: none;
-  height: 300px;
-  padding: 0px 75px 0px 75px;
+  height: 370px;
 }
 .sum1{
   position: relative;
@@ -2531,8 +2530,9 @@ details[open] summary:after {
   cursor: pointer;
 }
 .pro2 {
-  width: 50%;
+  width: 48%;
   float: right;
+  margin-right: 20px;
 }
 .btn-area2 {
   background-color: #cecece;
@@ -2551,8 +2551,7 @@ details[open] summary:after {
 .det2 {
   display: block;
   list-style: none;
-  height: 300px;
-  padding: 0px 75px 0px 75px;
+  height: 370px;
 }
 .pro3 {
   width: 44%;
@@ -2570,15 +2569,12 @@ details[open] summary:after {
   cursor: pointer;
 }
 .sum2 img{
-  width: 50%;
+  width: 45%;
   float: right;
 }
 .sum2 img:hover{
   opacity: 0.3;
   transform: 1r;
-}
-.pro3{
-  float: left;
 }
 /*-------------------------------------------クエスチョン２*/
 
@@ -2587,8 +2583,7 @@ details[open] summary:after {
 .det3 {
   display: block;
   list-style: none;
-  height: 300px;
-  padding: 0px 75px 0px 75px;
+  height: 370px;
 }
 .pro4 {
   width: 50%;
@@ -2610,7 +2605,7 @@ details[open] summary:after {
   transform: 1r;
 }
 .sum3 img{
-  width: 40%;
+  width: 50%;
   float: left;
 }
 /*-------------------------------------------クエスチョン3*/
