@@ -2689,16 +2689,21 @@ details[open] summary:after {
 /*-------------------------------------------クエスチョン3*/
 
 
+/* ipad pro */
+@media screen and (min-width:1023px) and (max-width:1223px) {
 
+}
 
-
-@media screen and (max-width: 1030px) {}
-
-@media screen and (max-width: 770px) {
+/* ipad */
+@media screen and (min-width:768px) and (max-width:1023px) {
   #header .logo {
     margin-left: 300px;
   }
 
+  .top-cta {
+    width: 90%;
+  }
+  
   #header .logo img {
     padding: 15px 0;
     width: 29vw;
@@ -2707,18 +2712,46 @@ details[open] summary:after {
   .top-img {
     width: 97%;
   }
+
   .can {
     width: 82%;
-}
-body{
-  
-}
+  }
+
+  body {}
+
   .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
     text-align: center;
     margin: 0px 90px 0px 90px;
+  }
+
+  .btn-area2 {
+    background-color: #cecece;
+    height: 250px;
+    width: 133vw;
+    padding-top: 69px;
+    transform: translate(0%, 0px);
+  }
+
+  .kyoukan-wrap {
+    text-align: center;
+    width: 130vw;
+    transform: translateX(1%);
+  }
 }
 
+/* スマホ */
+@media screen and (max-width:480px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    text-align: center;
+    margin: 0;
 }
+}
+
+/* スマホSE */
+@media screen and (max-width:320px) {}

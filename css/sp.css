@@ -191,13 +191,8 @@ header
 mv
 ------------------------------------------------------------------------------*/
 
-.mv.contents-block {
-  background: url("../image/sp/mv_bg.png")no-repeat top center;
-  background-size: contain;
-}
-
 .mv .inner-block {
-  margin-top: 60%;
+  margin-top: 0%;
 }
 
 .gradation-heading img {
