@@ -2509,6 +2509,7 @@ details[open] summary:after {
 }
 .sum1 img {
   width: 45%;
+  margin-left: 20px;
   float: left;
 }
 .sum1 img:hover{
@@ -2528,11 +2529,12 @@ details[open] summary:after {
   display: block; /* 矢印を消す */
   padding-left: 20px; /* アイコン分の余白 */
   cursor: pointer;
+  
 }
 .pro2 {
   width: 48%;
   float: right;
-  margin-right: 20px;
+  margin-right: 30px;
 }
 .btn-area2 {
   background-color: #cecece;
@@ -2554,8 +2556,9 @@ details[open] summary:after {
   height: 370px;
 }
 .pro3 {
-  width: 44%;
-  float: right;
+  width: 48%;
+  float: left;
+  margin-left: 20px;
 }
 
 .sum2::-webkit-details-marker {
@@ -2568,9 +2571,10 @@ details[open] summary:after {
   padding-left: 20px; /* アイコン分の余白 */
   cursor: pointer;
 }
-.sum2 img{
+.sum2 img {
   width: 45%;
   float: right;
+  margin-right: 30px;
 }
 .sum2 img:hover{
   opacity: 0.3;
@@ -2586,7 +2590,7 @@ details[open] summary:after {
   height: 370px;
 }
 .pro4 {
-  width: 50%;
+  width: 48%;
   float: right;
 }
 
@@ -2604,9 +2608,10 @@ details[open] summary:after {
   opacity: 0.3;
   transform: 1r;
 }
-.sum3 img{
-  width: 50%;
+.sum3 img {
+  width: 45%;
   float: left;
+  margin-left: 20px;
 }
 /*-------------------------------------------クエスチョン3*/
 
