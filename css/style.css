@@ -2707,6 +2707,12 @@ details[open] summary:after {
   .top-img {
     width: 97%;
   }
+  .can {
+    width: 82%;
+}
+body{
+  
+}
   .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
