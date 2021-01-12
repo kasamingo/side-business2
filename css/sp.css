@@ -1147,3 +1147,50 @@ floating-box
   visibility: hidden;
 }
 */
+
+
+
+
+
+/* スマホ */
+@media screen and (max-width:480px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    text-align: center;
+    margin: 0;
+}
+.det1 {
+  display: block;
+  list-style: none;
+  height: 500px;
+}
+.sum1 img {
+  width: 90%;
+}
+.pro2 {
+  width: 95%;
+}
+.det2 {
+  display: block;
+  list-style: none;
+  height: 450px;
+}
+.sum2 img {
+  width: 90%;
+}
+.pro3 {
+  width: 95%;
+}
+.sum3 img {
+  width: 90%;
+}
+.pro4 {
+  width: 95%;
+  /* float: right; */
+}
+}
+
+/* スマホSE */
+@media screen and (max-width:320px) {}
