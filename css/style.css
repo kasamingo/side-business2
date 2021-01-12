@@ -2692,6 +2692,9 @@ details[open] summary:after {
 .intro{
   width: 70%;
 }
+.reason-sp{
+  display: none;
+}
 
 /*-------------------------------------------クエスチョン3*/
 

@@ -1069,6 +1069,19 @@ link / risk
   line-height: 40px;
   width: 300px;
 }
+.top-img {
+  width: 100%;
+  max-width: 100%;
+}
+.mv.contents-block {
+  background: #e2f8f2;
+  padding: 70px 0 0px 0;
+  position: relative;
+}
+#header .logo img {
+  padding: 13px 0;
+  width: 119px;
+}
 
 /*------------------------------------------------------------------------------
 footer
@@ -1131,8 +1144,24 @@ floating-box
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+.reason-wrapper{
+  display: none;
+}
 
-
+.reason-sp{
+  display: block;
+  text-align: center;
+}
+.direct{
+  width: 20%;
+}
+.bef {
+  width: 80%;
+  margin-top: 30px;
+}
+.aft{
+  width: 80%;
+}
 
 
 /*------------------------------------------------------------------------------
