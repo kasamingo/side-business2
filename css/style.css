@@ -2456,6 +2456,7 @@ bg
 
 .kyoukan-wrap {
   text-align: center;
+  margin-top: 9vw;
 }
 
 .kyoukan {
@@ -2518,7 +2519,7 @@ bg
 }
 
 .defi-img {
-  width: 80%;
+  width: 95%;
 }
 
 .can-wrapper {
@@ -2652,7 +2653,7 @@ details[open] summary:after {
 .det3 {
   display: block;
   list-style: none;
-  height: 370px;
+  height: 500px;
 }
 
 .pro4 {
@@ -2684,6 +2685,13 @@ details[open] summary:after {
   width: 45%;
   float: left;
   margin-left: 20px;
+}
+
+.intro-wrapper{
+  text-align: center;
+}
+.intro{
+  width: 85%;
 }
 
 /*-------------------------------------------クエスチョン3*/
