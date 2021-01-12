@@ -1211,6 +1211,15 @@ floating-box
 .intro {
   width: 90%;
 }
+.container img {
+  width: 65%;
+  margin: auto;
+}
+.btn-area2 {
+  background-color: #cecece;
+  height: 200px;
+  padding-top: 69px;
+}
 
 }
 

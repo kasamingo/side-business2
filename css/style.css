@@ -2456,7 +2456,6 @@ bg
 
 .kyoukan-wrap {
   text-align: center;
-  margin-top: 9vw;
 }
 
 .kyoukan {
@@ -2691,7 +2690,7 @@ details[open] summary:after {
   text-align: center;
 }
 .intro{
-  width: 85%;
+  width: 70%;
 }
 
 /*-------------------------------------------クエスチョン3*/
