@@ -1079,7 +1079,7 @@ link / risk
   position: relative;
 }
 #header .logo img {
-  padding: 13px 0;
+  padding: 6px 6px;
   width: 119px;
 }
 /*------------------------------------------------------------------------------
@@ -1249,6 +1249,7 @@ floating-box
 }
 .intro {
   width: 90%;
+  margin-top: 50px;
 }
 .container img {
   width: 65%;

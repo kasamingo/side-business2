@@ -276,30 +276,15 @@ h6 {
 ----------------------------------------*/
 
 .btn-free {
-  background-color: #fff600;
+  background-color: #07b901;
   display: block;
   margin: auto;
   padding: 24px 0;
   position: relative;
   text-align: center;
 }
-
 .btn-free.long {
-  width: 720px;
-  height: 93px;
-}
-
-.btn-free.long::before {
-  background: url("../image/circle_txt_now.png")no-repeat center center;
-  background-size: contain;
-  content: "";
-  display: block;
-  height: 88px;
-  position: absolute;
-  width: 88px;
-  bottom: 15px;
-  left: 42px;
-  margin: auto;
+  width: 80%;
 }
 
 .btn-free.long::after {
@@ -432,10 +417,10 @@ header
 #header .btn-free {
   float: right;
 }
-
 #header .btn-free.pc {
   position: fixed;
   right: 0px;
+  background-color: yellow;
 }
 
 /*--------------------nav--------------------*/
@@ -2592,7 +2577,7 @@ details[open] summary:after {
 }
 
 .btn-area2 {
-  background-color: #cecece;
+  background-color: #ffffff;
   height: 250px;
   padding-top: 69px;
 }
