@@ -2752,7 +2752,6 @@ details[open] summary:after {
     transform: translateX(16%);
 }
 }
-
 /* スマホ */
 @media screen and (max-width:480px) {
   .container {

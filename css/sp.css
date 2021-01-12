@@ -1221,6 +1221,19 @@ floating-box
   height: 200px;
   padding-top: 69px;
 }
+.increase-img {
+  width: 85%;
+}
+.reason-text {
+  width: 85%;
+}
+.defi-main {
+  width: 85%;
+}
+.que-text {
+  width: 90%;
+  margin-bottom: 50px;
+}
 
 }
 
