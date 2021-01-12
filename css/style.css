@@ -2751,6 +2751,12 @@ details[open] summary:after {
     text-align: center;
     margin: 0;
 }
+.kyoukan {
+  width: 100%;
+}
+.can{
+  width: 95%;
+}
 }
 
 /* スマホSE */

@@ -1168,9 +1168,12 @@ floating-box
 }
 .sum1 img {
   width: 90%;
+  margin: 0;
 }
 .pro2 {
   width: 95%;
+  margin: 0;
+  float: none;
 }
 .det2 {
   display: block;
@@ -1179,17 +1182,27 @@ floating-box
 }
 .sum2 img {
   width: 90%;
+  float: none;
+  margin: 0;
 }
 .pro3 {
   width: 95%;
 }
 .sum3 img {
   width: 90%;
+  margin: 0;
 }
 .pro4 {
   width: 95%;
   /* float: right; */
 }
+.kyoukan {
+  width: 100%;
+}
+.can{
+  width: 95%;
+}
+
 }
 
 /* スマホSE */
