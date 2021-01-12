@@ -2747,6 +2747,10 @@ details[open] summary:after {
     width: 130vw;
     transform: translateX(1%);
   }
+  .intro {
+    width: 100%;
+    transform: translateX(16%);
+}
 }
 
 /* スマホ */
