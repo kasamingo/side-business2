@@ -1076,12 +1076,8 @@ link / risk
   position: relative;
 }
 #header > .clearfix > .logo>a>.sp > img {
-  padding: 11px 6px;
-  width: 119px;
-}
-#header > .clearfix > .logo>a>.sp > .phone {
-  padding: 11px 0 0 21px;
-  width: 207px;
+  width: 100%;
+  transform: translateX(12%);
 }
 /*------------------------------------------------------------------------------
 footer
@@ -1165,12 +1161,11 @@ floating-box
 .top-img {
   width: 100%;
   max-width: 100%;
-  margin-top: 30px;
+  margin-top: 12px;
 }
 #header {
   height: 70px;
-  border-radius: 50%;
-  background: #ffe7c08c;
+  background: #fdebd6;
   box-shadow: -3px 2px 6px 1px #bac7bd;
 }
 
@@ -1305,4 +1300,9 @@ floating-box
 }
 
 /* スマホSE */
-@media screen and (max-width:320px) {}
+@media screen and (max-width:320px) {
+  #header > .clearfix > .logo>a>.sp > img {
+    width: 100%;
+    transform: translateX(-1%);
+}
+}
