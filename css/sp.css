@@ -100,10 +100,6 @@ input, select, textarea {
   margin: auto;
 }
 
-.btn-free img {
-  width: 43.9%;
-}
-
 .mv .btn-free.long::before {
   background-size: 54%;
   height: 112%;
@@ -1198,6 +1194,17 @@ floating-box
     gap: 10px;
     text-align: center;
     margin: 0;
+}
+.sp-topLine {
+  padding: 10px;
+  box-shadow: 1px 3px 4px 0px #c5c3c3;
+  background-color: #07b901;
+}
+.btn-free.long {
+  padding: 10px 0;
+  width: 100%;
+  height: 83px;
+  display: none;
 }
 .det1 {
   display: block;
