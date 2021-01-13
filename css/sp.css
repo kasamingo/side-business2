@@ -1198,7 +1198,12 @@ floating-box
 .sp-topLine {
   padding: 10px;
   box-shadow: 1px 3px 4px 0px #c5c3c3;
+  border-radius: 56px;
   background-color: #07b901;
+  width: 90%;
+}
+.sp {
+  text-align: center;
 }
 .btn-free.long {
   padding: 10px 0;
@@ -1269,6 +1274,9 @@ floating-box
 }
 .btn-free2.long {
   width: 90%!important;
+}
+.top-btn{
+  border-radius: 50px;
 }
 .increase-img {
   width: 85%;
