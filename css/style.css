@@ -317,8 +317,10 @@ h6 {
 .btn-free2 {
   display: block;
   margin: auto;
+  border-radius: 50px;
   position: relative;
   text-align: center;
+  box-shadow: 1px 3px 4px 0px #c5c3c3;
 }
 
 .top-cta {
