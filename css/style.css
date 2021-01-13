@@ -1769,7 +1769,8 @@ link / risk
 
 @media screen and (min-width: 641px) {
   .link-risk .link-risk-list li+li {
-    margin-left: 20px;
+    margin-left: 150px;
+    margin-top: 10px;
   }
 }
 
