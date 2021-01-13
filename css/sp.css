@@ -1257,8 +1257,11 @@ floating-box
 }
 .btn-area2 {
   background-color: #cecece;
-  height: 200px;
-  padding-top: 69px;
+  height: 145px;
+  padding-top: 30px;
+}
+.btn-free2.long {
+  width: 90%;
 }
 .increase-img {
   width: 85%;

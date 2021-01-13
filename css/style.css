@@ -279,12 +279,24 @@ h6 {
   background-color: #07b901;
   display: block;
   margin: auto;
-  padding: 24px 0;
+  padding: 15px;
   position: relative;
   text-align: center;
 }
 .btn-free.long {
-  width: 80%;
+  width: 90%;
+}
+
+.btn-free2 {
+  background-color: #07b901;
+  display: block;
+  margin: auto;
+  padding: 15px;
+  position: relative;
+  text-align: center;
+}
+.btn-free2.long {
+  width: 70%;
 }
 
 .btn-free.long::after {
