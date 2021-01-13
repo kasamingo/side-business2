@@ -1268,7 +1268,7 @@ floating-box
   padding-top: 30px;
 }
 .btn-free2.long {
-  width: 90%;
+  width: 90%!important;
 }
 .increase-img {
   width: 85%;
