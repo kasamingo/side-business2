@@ -2756,7 +2756,7 @@ details[open] summary:after {
 }
 }
 /* スマホ */
-@media screen and (max-width:480px) {
+@media screen and (max-width:420px) {
   .container {
     display: grid;
     grid-template-columns: 1fr;
@@ -2773,5 +2773,11 @@ details[open] summary:after {
 
 }
 
+@media screen and (max-width:380px){
+  #header > .clearfix > .logo>a>.sp > img {
+    width: 80%;
+    transform: translateX(12%);
+}
+}
 /* スマホSE */
 @media screen and (max-width:320px) {}

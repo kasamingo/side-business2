@@ -1297,6 +1297,10 @@ floating-box
   float: right;
   width: 50%;
 }
+#header > .clearfix > .logo>a>.sp > img {
+  width: 80%;
+  transform: translateX(12%);
+}
 }
 
 /* スマホSE */
