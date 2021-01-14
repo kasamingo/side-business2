@@ -131,7 +131,7 @@ header
 }
 
 #header .logo {
-  margin-left: 10px;
+ 
 }
 
 #header >　.clearfix > .logo>a>.sp > img {
@@ -1299,8 +1299,15 @@ floating-box
 }
 #header > .clearfix > .logo>a>.sp > img {
   width: 80%;
-  transform: translateX(12%);
+  transform: translateX(2%);
 }
+
+}
+@media screen and (max-width:380px){
+  #header > .clearfix > .logo>a>.sp > img {
+    width: 80%;
+    transform: translateX(-7%);
+  }
 }
 
 /* スマホSE */
