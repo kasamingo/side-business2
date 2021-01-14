@@ -1298,22 +1298,42 @@ floating-box
   width: 50%;
 }
 #header > .clearfix > .logo>a>.sp > img {
-  width: 80%;
-  transform: translateX(2%);
+  width: 100%;
+}
+#header .logo {
+  /* float: left; */
+  margin: 0 auto;
+}
 }
 
-}
-@media screen and (max-width:380px){
+
+
+/* Iphone 6/7/8 Plus (414×##)*/
+@media screen and (min-width:414px) and (max-width:479px) {
   #header > .clearfix > .logo>a>.sp > img {
-    width: 80%;
-    transform: translateX(-7%);
+    width: 100%;
+    transform: translateX(15%);
+  }
+}
+/* Iphone 6/7/8 X (375×##)*/
+@media screen and (min-width:375px) and (max-width:413px) {
+  #header > .clearfix > .logo>a>.sp > img {
+    width: 100%;
+    transform: translateX(12%);
+  }
+}
+/* Galaxy S5 (360×##) */
+@media screen and (min-width:321px) and (max-width:374px) {
+  #header > .clearfix > .logo>a>.sp > img {
+    width: 100%;
+    transform: translateX(8%);
+  }
+}
+/* Iphone 5/SE (320×##)*/
+@media screen and (max-width:320px) {
+  #header > .clearfix > .logo>a>.sp > img {
+    width: 90%;
+    transform: translateX(1%);
   }
 }
 
-/* スマホSE */
-@media screen and (max-width:320px) {
-  #header > .clearfix > .logo>a>.sp > img {
-    width: 100%;
-    transform: translateX(-1%);
-}
-}

@@ -2773,11 +2773,15 @@ details[open] summary:after {
 
 }
 
-@media screen and (max-width:380px){
-  #header > .clearfix > .logo>a>.sp > img {
-    width: 80%;
-    transform: translateX(12%);
+/* Iphone 6/7/8 Plus (414×##)*/
+@media screen and (min-width:414px) and (max-width:479px) {
 }
+/* Iphone 6/7/8 X (375×##)*/
+@media screen and (min-width:375px) and (max-width:413px) {
 }
-/* スマホSE */
-@media screen and (max-width:320px) {}
+/* Galaxy S5 (360×##) */
+@media screen and (min-width:321px) and (max-width:374px) {
+}
+/* Iphone 5/SE (320×##)*/
+@media screen and (max-width:320px) {
+}
